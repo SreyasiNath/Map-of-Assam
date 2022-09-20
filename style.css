@@ -6,6 +6,10 @@ h1{
 
 h1:hover{
   color: red;
+  padding 5 px;
+  font-size: 50 px;
+  
+  
 }
 img{
     text-align: center;
@@ -41,6 +45,7 @@ img{
 .ttp:hover .ttxt{
     visibility: visible;
 }
+
 .btn{
   border 3 px solid black;
   margin: 10 px;
@@ -55,6 +60,7 @@ img{
 .btn:hover{
   background-color: rgba(160, 160, 160, 0.5);
   color: #f06829;
+  font-size: 35px;
 }
         * {
           box-sizing: border-box;
@@ -103,6 +109,12 @@ img{
           clear: both;
         }
         
+        p:hover, a:hover ,h2:hover {
+          background-color: yellow;
+        }
+
+        a.ex2:hover, a.ex2:active {font-size: 150%;}
+
         /* Style the footer */
        footer {
     /* position: relative; */
@@ -156,7 +168,7 @@ a svg:hover{
             width: 100%;
             height: auto;
           }
-        }
+        } 
         table {
           border-collapse: collapse;
           width: 100%;
