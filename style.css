@@ -1,13 +1,24 @@
 h1{
     text-align: center;
-    color: b
+    color: blue;
 
+}
+
+h1:hover{
+  color: red;
 }
 img{
     text-align: center;
     height: 60%;
 
 
+}
+
+.abt{
+  border: 8px solid black;
+  border-radius: 7px;
+  margin: 20px;
+  padding: 20px;
 }
 
 .ttp{
@@ -31,7 +42,7 @@ img{
     visibility: visible;
 }
 .btn{
-  border 2 px solid black;
+  border 3 px solid black;
   margin: 10 px;
   padding 5 px;
   background-color: rgba(200, 200, 200, 0.8);
@@ -100,7 +111,7 @@ img{
     height: 4vh;  
     padding-left: 30px;
     padding-right: 30px;
-    background: #5db96f;
+    background: lightgreen;
     font-family: Pacifico;
     font-size: 20px;
     color: #4223bb;
@@ -145,4 +156,17 @@ a svg:hover{
             width: 100%;
             height: auto;
           }
+        }
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        th, td {
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #D6EEEE;
         }
